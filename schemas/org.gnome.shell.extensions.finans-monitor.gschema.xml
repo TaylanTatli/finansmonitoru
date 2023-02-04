@@ -1,0 +1,17 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.finans-monitor" path="/org/gnome/shell/extensions/finans_monitor/">
+    <key name="currency" type="s">
+      <default>"GRA"</default>
+      <summary>Birim</summary>
+      <description>Değer Birimi.</description>
+    </key>
+    <key name="refresh-interval" type="i">
+      <default>60</default>
+      <summary>Dakika Cinsinden Yenileme Aralığı</summary>
+      <description>Dakika Cinsinden Yenileme Aralığı.</description>
+    </key>
+    <key name="panel-position" type="s">
+      <default>"Sağ"</default>
+    </key>
+  </schema>
+</schemalist>

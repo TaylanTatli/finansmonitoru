@@ -1,0 +1,15 @@
+{
+  "dangerous": false,
+  "description": "Altın ve Döviz fiyatlarını gerçek zamanlı olarak finans.truncgil.com üzerinden takip eder.",
+  "name": "Finans Monitörü",
+  "settings-schema": "org.gnome.shell.extensions.finans-monitor",
+  "shell-version": [
+    "40",
+    "41",
+    "42",
+    "43"
+  ],
+  "url": "https://github.com/TaylanTatli/finansmonitoru",
+  "uuid": "Finans_Monitor@taylantatli_github",
+  "version": 27
+}
