@@ -10,11 +10,11 @@
     Altın ve Döviz fiyatlarını gerçek zamanlı olarak finans.truncgil.com üzerinden takip eden bir Gnome Uzantısı.
     <br/>
     <br/>
-    <a href="https://github.com/TaylanTatli/finansmonitoru">Yükleme</a>
+    <a href="https://extensions.gnome.org/extension/5739/finans-monitoru/">Yükle</a>
     .
     <a href="https://github.com/TaylanTatli/finansmonitoru/issues">Hata Bildirimi</a>
     .
-    <a href="https://github.com/TaylanTatli/finansmonitoru/issues">Talepler</a>
+    <a href="https://github.com/TaylanTatli/finansmonitoru/issues">Talepte Bulun</a>
   </p>
 </p>
 
@@ -30,9 +30,12 @@ Altın ve Döviz fiyatlarını gerçek zamanlı olarak finans.truncgil.com taraf
 
 Uzantıyı en basit haliyle extensions.gnome.org üzerinden yükleyebilirsiniz.
 
+[<img src="https://raw.githubusercontent.com/andyholmes/gnome-shell-extensions-badge/master/get-it-on-ego.svg?sanitize=true" alt="Get it on GNOME Extensions" height="100" align="middle">][ego]
+
 ### Kurulum
 
-Basit ve en garanti yolu Gnome Extensions websitesi üzerinden yükleme olacaktır.
+Basit ve en garanti yolu [Gnome Extensions](https://extensions.gnome.org/extension/5739/finans-monitoru/) websitesi üzerinden yüklemek olacaktır.
+
 Eğer manüel yüklemek isterseniz aşağıdaki komutu çalıştırın.
 
 ```sh
@@ -57,8 +60,10 @@ Ayarlar üzerinden gösterilecek Altın ve Döviz türlerini, panel pozisyonunu 
 
 ## Lisans
 
-MIT Lisansı altında dağıtılmaktadır. Daha fazla bilgi için bakınız: [LICENSE](https://github.com/TaylanTatli/finansmonitoru/blob/main/LICENSE.md).
+MIT Lisansı altında dağıtılmaktadır. Daha fazla bilgi için bakınız: [LICENSE](https://github.com/TaylanTatli/finansmonitoru/blob/master/LICENSE).
 
 ## Teşekkür
 
 * [WANGSHIFU - Gold Price Monitor](https://github.com/wotmshuaisi/goldpricemonitor)
+
+[ego]: https://extensions.gnome.org/extension/5739/finans-monitoru/
