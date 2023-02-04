@@ -24,7 +24,7 @@
 
 ![Screen Shot](https://user-images.githubusercontent.com/754514/216790566-68715b06-5148-407a-8046-6534b8e0526f.png)
 
-Altın ve Döviz fiyatlarını gerçek zamanlı olarak finans.truncgil.com tarafından sağlanan API'yi kullanarak takip edebileceğiniz basit bir Gnome eklentisidir.
+Altın ve Döviz fiyatlarını gerçek zamanlı olarak finans.truncgil.com tarafından sağlanan API'yi kullanarak takip edebileceğiniz basit bir Gnome eklentisidir. [goldpricemonitor](https://github.com/wotmshuaisi/goldpricemonitor) temel alınarak oluşturulmuştur.
 
 ## Başlangıç
 
