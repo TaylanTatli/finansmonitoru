@@ -1,6 +1,6 @@
 {
   "dangerous": false,
-  "description": "An Extension to track gold and foreign exchange prices in Turkey in real time with finance.truncgil.com API.",
+  "description": "An Extension to track gold and foreign exchange prices in Turkey in real time with finans.truncgil.com API.",
   "name": "Finans Monitörü",
   "settings-schema": "org.gnome.shell.extensions.finans-monitor",
   "shell-version": [
