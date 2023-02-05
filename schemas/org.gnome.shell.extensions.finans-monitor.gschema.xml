@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="org.gnome.shell.extensions.finans-monitor" path="/org/gnome/shell/extensions/finans_monitor/">
+  <schema id="org.gnome.shell.extensions.finans-monitor" path="/org/gnome/shell/extensions/finans-monitor/">
     <key name="currency" type="s">
       <default>"GRA"</default>
       <summary>Birim</summary>
