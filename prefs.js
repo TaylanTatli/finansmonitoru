@@ -6,7 +6,6 @@ const GObject = imports.gi.GObject;
 
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
-const Soup = imports.gi.Soup;
 const Currencies = Me.imports.currencies;
 
 
@@ -15,16 +14,9 @@ function init() {
 
 function buildPrefsWidget() {
 
-    // Copy the same GSettings code from `extension.js`
-    let gschema = Gio.SettingsSchemaSource.new_from_directory(
-        Me.dir.get_child('schemas').get_path(),
-        Gio.SettingsSchemaSource.get_default(),
-        false
-    );
-
-    this.settings = new Gio.Settings({
-        settings_schema: gschema.lookup('org.gnome.shell.extensions.finans-monitor', true)
-    });
+    // Settings
+    this.settings = ExtensionUtils.getSettings(
+      'org.gnome.shell.extensions.finans-monitor');
 
     // Create a parent widget that we'll return from this function
     let prefsWidget = new Gtk.Grid({

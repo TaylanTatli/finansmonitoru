@@ -49,18 +49,9 @@ const GoldPriceIndicator = GObject.registerClass(
       this.api_url = "https://finans.truncgil.com/v4/today.json";
       this._httpSession = new Soup.Session();
 
-      let gschema = Gio.SettingsSchemaSource.new_from_directory(
-        Me.dir.get_child("schemas").get_path(),
-        Gio.SettingsSchemaSource.get_default(),
-        false
-      );
       // settings
-      this.settings = new Gio.Settings({
-        settings_schema: gschema.lookup(
-          "org.gnome.shell.extensions.finans-monitor",
-          true
-        ),
-      });
+      this.settings = ExtensionUtils.getSettings(
+        'org.gnome.shell.extensions.finans-monitor');
 
       // Indicator
       let box = new St.BoxLayout({ style_class: "panel-status-menu-box" });
@@ -93,13 +84,7 @@ const GoldPriceIndicator = GObject.registerClass(
     buildRequest() {
       const url = this.api_url ;
       let request = Soup.Message.new("GET", url);
-      request.request_headers.append("Cache-Control", "no-cache");
-      request.request_headers.append(
-        "User-Agent",
-        "Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.84 Safari/537.36"
-      );
-
-      // this.log([url]); // debug
+      
       return request;
     }
 

@@ -1,12 +1,9 @@
 {
   "dangerous": false,
-  "description": "Altın ve Döviz fiyatlarını gerçek zamanlı olarak finans.truncgil.com üzerinden takip eder.",
+  "description": "An Extension to track gold and foreign exchange prices in Turkey in real time with finance.truncgil.com API.",
   "name": "Finans Monitörü",
   "settings-schema": "org.gnome.shell.extensions.finans-monitor",
   "shell-version": [
-    "40",
-    "41",
-    "42",
     "43"
   ],
   "url": "https://github.com/TaylanTatli/finansmonitoru",
